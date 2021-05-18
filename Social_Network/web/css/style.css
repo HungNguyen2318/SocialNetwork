@@ -1,0 +1,195 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 18, 2020, 8:39:40 PM
+    Author     : Admin
+*/
+body {
+    background-color: #F0F2F5;
+    font-family: Arial;
+    padding-left: 10%;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+#body_login_form {
+    /*background-color: blue;*/
+    height: 500px;
+    width: 80%;
+    float: left;
+    padding-top: 150px;
+    padding-left: 5%;
+}
+
+#logo {
+    float: left;
+    /*background-color: green;*/
+    height: 100%;
+    width: 60%;
+}
+
+#logo h1 {
+    padding-top: 40px;
+    padding-left: 50px;
+    color: rgb(22, 111, 229);
+    margin: 1px;
+    font-size: 44px;
+}
+
+#logo p {
+    padding-right: 10px;
+    padding-left: 50px;
+    font-size: 24px;
+}
+
+#login_form { 
+    float: left;
+/*    background-color: red;*/
+    height: 100%;
+    width: 40%;
+}
+
+form {
+    text-align: center;
+    background-color: #FFFFFF;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    padding: 12px 20px;
+    margin: 8px 0;
+}
+
+input[type=text] {
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=password] {
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=email] {
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=date] {
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    color: #8e8e8e;
+}
+
+select {
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    color: #8e8e8e;
+}
+
+#sign_up {
+    font-weight: 700;
+    text-decoration:none solid rgb(255, 255, 255);
+    color: #FFFFFF;
+    font-size: 17px;
+    border: 0px solid rgb(51, 160, 30);
+    background-color: rgb(51, 160, 30);
+    width: 50%;
+}
+
+#sign_in {
+    font-weight: 700;
+    text-decoration:none solid rgb(255, 255, 255);
+    color: #FFFFFF;
+    font-size: 20px;
+    border: 0px solid rgb(22, 111, 229);
+    background-color: rgb(22, 111, 229);
+    vertical-align: middle;
+}
+
+#sign_up_form {
+    float: left;
+    /*background-color: red;*/
+    height: 100%;
+    width: 40%;
+}
+
+#noti_confirm {
+    display: none;
+    text-align: left;
+    padding: 0px;
+    margin: 0px;
+    color: red;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#noti_result_active {
+    text-align: left;
+    padding: 0px;
+    margin: 0px;
+    color: green;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#noti_wrong_active_code {
+    text-align: left;
+    padding: 0px;
+    margin: 0px;
+    color: red;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#noti_result_login {
+    text-align: left;
+    padding: 0px;
+    margin: 0px;
+    color: red;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+label {
+    padding: 0px;
+    margin: 0px; 
+    color: #8e8e8e;
+}
+
+
+
+
+
+
